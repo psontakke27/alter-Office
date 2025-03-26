@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbar {
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between; /* Push left and right elements apart */
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding */
+    background-color: white;
+    border-bottom: 1px solid #7B1984;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Keeps navbar at the top */
+    top: 85px;
+    left: 30px;
+   
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and text */
+}
+
+.Dashbord-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task_icon {
+    width: 32px;
+    height: 32px;
+}
+
+.taskbuddy-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user_avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: 600;
+}
+.sub-nav {
+    width: 1336px;
+    display: flex;
+    
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center;
+    border: 1px solid #7B1984;
+
+}
+
+/* Left section */
+.left-subnav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ensure items start from the left */
+    gap: 10px; /* Adjust spacing */
+}
+
+/* List items */
+.listBoard {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.listBoard li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+/* Right section */
+.right-subnav {
+    display: flex;
+    align-items: flex-end; /* Align logout button to the right */
+}
+
+/* Logout button */
+.logout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    gap: 10px;
+}
+
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filters select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .search-add {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .add-task {
+    background-color: purple;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .add-task:hover {
+    background-color: darkviolet;
+  }
+  
+  .task-table-header {
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px; /* Add padding */
+    font-family: 'Mulish', sans-serif;
+    font-weight:700;
+    color: gray; /* Light gray text */
+    text-align: left;
+    flex: 2;
+}
+
+.task-table-header span {
+    flex: 1; /* Distribute space evenly */
+    text-align: left; /* Center text */
+}
+
+.task-name {
+    text-align: left; /* Align first column to left */
+}

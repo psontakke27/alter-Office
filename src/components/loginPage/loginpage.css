@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+.heroSection {
+    width: 1257px;
+    height: 814px;
+    background-color: #fff9f9;
+    display: flex;
+  }
+  
+  .left-hs {
+    width: 40%;
+    background-color: #fff9f9; /* Light red */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heroSection_box_left {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .taskbuddy {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 0.5rem; /* Equivalent to Tailwind's gap-2 (8px) */
+    color: #7B1984; /* Equivalent to Tailwind's text-purple-700 */
+    font-size: 1.5rem; /* Equivalent to Tailwind's text-2xl */
+    font-weight: bold;
+    text-align: left; /* Ensure text alignment is left */
+    justify-content: flex-start; /* Align items to the left */
+    width: 100%;  
+  }
+  
+  .taskbuddy-text {
+    color:#000000 ;
+    width: 294.61px;
+    height: 32px;
+    top:367.36px;
+    font-weight: 400;
+    left:86.27;
+    font-size: 16px; /* Adjust font size if needed */
+    text-align: left; /* Align text properly */
+    white-space: normal; /* Ensures text wraps */
+    display: block;
+  }
+  
+  .break-line {
+    display: block;
+  }
+  
+  .taskbuddy-button {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem; /* Same as gap-2 */
+    padding: 12px 24px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px; /* Ensures full-rounded corners */
+    font-size: 1.125rem; /* Same as text-lg */
+    min-width: 360px; /* Keeps button responsive */
+    height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  .taskbuddy-button:hover {
+    background-color: #333333; /* Darker shade on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+  .button-logo {
+    width: 20.37px;
+    height: 20.84px;
+    flex-shrink: 0; 
+    margin-left: 5px;
+
+  }
+  
+  .button-text {
+    margin-left: 4px;
+    flex-shrink: 1;
+    font-weight: 700;
+
+  }
+  /* ------------------------------- */
+  .right-hs {
+    width: 60%;
+    background-color: #fff9f9; /* Light blue */
+  }
+  .circles-bg{
+    width: 800.37px;
+  height: 800.37px;
+  position: absolute;
+  top: 41.46px;
+  left: 600.84px;
+  }
+  
